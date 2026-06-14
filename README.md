@@ -32,6 +32,10 @@ The application supports automatic dialing, call logging, resume functionality, 
 
 \## Screenshots
 
+## Screenshots
+
+![Application screenshot](docs/screenshots/app.png)
+
 ## Features
 
 \- GUI-based auto dialer
