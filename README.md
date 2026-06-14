@@ -10,22 +10,11 @@ Excel import · Hotkeys · CSV logs · Resume support
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Screenshots](#-screenshots) · [Contributing](CONTRIBUTING.md)
-
 </div>
 
 ---
 
-## 🖼 Screenshots
-
-![Python Auto Dialer Pro screenshot](docs/screenshots/placeholder.svg)
-
-*Replace `docs/screenshots/placeholder.svg` with real app screenshots.*
-
----
-
 ## 🐍 Contribution graph
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-auto-dialer-pro/output/snake-dark.svg" />
@@ -33,28 +22,17 @@ Excel import · Hotkeys · CSV logs · Resume support
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/python-auto-dialer-pro/output/snake.svg" />
 </picture>
 
-
 ---
 
 \# Python Auto Dialer Pro
 
-
-
 A Python GUI-based auto dialer system built with Tkinter and PyAutoGUI for automating outbound calls using Excel contact lists.
-
-
 
 The application supports automatic dialing, call logging, resume functionality, keyboard shortcuts, progress tracking, and desktop automation workflows.
 
-
-
 \## Screenshots
 
-![python-auto-dialer-pro dashboard](docs/screenshots/app.png)
-
 ## Features
-
-
 
 \- GUI-based auto dialer
 
@@ -76,11 +54,7 @@ The application supports automatic dialing, call logging, resume functionality, 
 
 \- Desktop automation using PyAutoGUI
 
-
-
 \## Tech Stack
-
-
 
 \- Python
 
@@ -94,11 +68,7 @@ The application supports automatic dialing, call logging, resume functionality, 
 
 \- CSV Logging
 
-
-
 \## Project Structure
-
-
 
 ```text
 
@@ -116,15 +86,9 @@ python-auto-dialer-pro/
 
 ```
 
-
-
 \## Installation
 
-
-
 Install required packages:
-
-
 
 ```bash
 
@@ -132,11 +96,7 @@ pip install pandas pyautogui pynput openpyxl
 
 ```
 
-
-
 \## How to Run
-
-
 
 ```bash
 
@@ -144,23 +104,13 @@ python auto\_dialer.py
 
 ```
 
-
-
 \## Features Overview
-
-
 
 \### Excel Contact Loading
 
-
-
 Loads phone numbers automatically from Excel spreadsheets.
 
-
-
 \### Auto Dialing
-
-
 
 Automates:
 
@@ -170,19 +120,11 @@ Automates:
 
 \- call ending
 
-
-
 \### Resume System
-
-
 
 Skips already completed calls using log history.
 
-
-
 \### Keyboard Shortcuts
-
-
 
 | Key | Action |
 
@@ -192,15 +134,9 @@ Skips already completed calls using log history.
 
 | X | End current call and move next |
 
-
-
 \### Logging System
 
-
-
 All calls are stored inside:
-
-
 
 ```text
 
@@ -208,11 +144,7 @@ call\_logs.csv
 
 ```
 
-
-
 \## Use Cases
-
-
 
 \- Call center automation
 
@@ -224,25 +156,14 @@ call\_logs.csv
 
 \- Dispatch operations
 
-
-
 \## Security Note
-
-
 
 Do not upload private contact lists publicly.
 
-
-
 \## Author
 
-
-
 Muhammad Afzal Kalwar
-
-
 
 GitHub:
 
 @mafzalkalwardev
-
