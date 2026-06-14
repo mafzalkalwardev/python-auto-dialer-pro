@@ -48,7 +48,11 @@ The application supports automatic dialing, call logging, resume functionality, 
 
 
 
-\## Features
+\## Screenshots
+
+![python-auto-dialer-pro dashboard](docs/screenshots/app.png)
+
+## Features
 
 
 
