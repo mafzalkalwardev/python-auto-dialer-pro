@@ -237,6 +237,9 @@ listener.start()
 
 
 # ===== UI ===== #
+from indus_license_gate import require_license
+require_license()
+
 root = tk.Tk()
 root.title("Auto Dialer Pro")
 root.geometry("550x600")
