@@ -179,6 +179,25 @@ GitHub:
 
 ---
 
+---
+
+## Case Study (Problem → Stack → Result)
+
+### Problem
+Windows-based outbound teams needed Excel-driven dialing with resume support and hotkeys without complex call-center infrastructure.
+
+### Stack
+Python, GUI, Excel import, PyAutoGUI dial-pad control, CSV logging, hotkeys
+
+### Result
+Delivered a desktop auto dialer that loads contact lists, automates dial-pad actions, logs calls, and resumes campaigns — practical for small dispatch/sales operations.
+
+**Audience:** Outbound sales, dispatch assistants, Windows ops teams
+
+📄 Full write-up: [`CASE_STUDY.md`](./CASE_STUDY.md)
+
+**Hire / contact:** GitHub [@mafzalkalwardev](https://github.com/mafzalkalwardev) · LinkedIn [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) · WhatsApp [+92 307 9670503](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [Email](mailto:kalwarmuhammadafzal3@gmail.com)
+
 ## Discoverability
 
 **Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Full-Stack Developer & Python Automation Engineer (Islamabad, Pakistan · remote worldwide).
