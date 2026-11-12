@@ -29,133 +29,100 @@
 
 ## Features
 
-\- GUI-based auto dialer
+- GUI-based auto dialer
+- Excel contact loading
+- Automated outbound calling
+- Call logging system
+- Resume unfinished calls
+- Keyboard shortcuts
+- Progress tracking
+- Call timer
+- Multi-threading support
+- Desktop automation using PyAutoGUI
 
-\- Excel contact loading
+## Tech Stack
 
-\- Automated outbound calling
+- Python
+- Tkinter
+- Pandas
+- PyAutoGUI
+- Pynput
+- CSV Logging
 
-\- Call logging system
-
-\- Resume unfinished calls
-
-\- Keyboard shortcuts
-
-\- Progress tracking
-
-\- Call timer
-
-\- Multi-threading support
-
-\- Desktop automation using PyAutoGUI
-
-\## Tech Stack
-
-\- Python
-
-\- Tkinter
-
-\- Pandas
-
-\- PyAutoGUI
-
-\- Pynput
-
-\- CSV Logging
-
-\## Project Structure
+## Project Structure
 
 ```text
-
 python-auto-dialer-pro/
 
 │
-
-├── auto\_dialer.py
-
-├── call\_logs.csv
-
+├── auto_dialer.py
+├── call_logs.csv
 ├── README.md
-
 └── .gitignore
-
 ```
 
-\## Installation
+## Installation
 
 Install required packages:
 
 ```bash
-
 pip install pandas pyautogui pynput openpyxl
-
 ```
 
-\## How to Run
+## How to Run
 
 ```bash
-
-python auto\_dialer.py
-
+python auto_dialer.py
 ```
 
-\## Features Overview
+## Features Overview
 
-\### Excel Contact Loading
+### Excel Contact Loading
 
 Loads phone numbers automatically from Excel spreadsheets.
 
-\### Auto Dialing
+### Auto Dialing
 
 Automates:
 
-\- number input
+- number input
+- call button clicking
+- call ending
 
-\- call button clicking
-
-\- call ending
-
-\### Resume System
+### Resume System
 
 Skips already completed calls using log history.
 
-\### Keyboard Shortcuts
+### Keyboard Shortcuts
 
 | Key | Action |
-
 |----|----|
 
 | SPACE | Pause/Resume |
 
 | X | End current call and move next |
 
-\### Logging System
+### Logging System
 
 All calls are stored inside:
 
 ```text
-
-call\_logs.csv
-
+call_logs.csv
 ```
 
-\## Use Cases
+## Use Cases
 
-\- Call center automation
+- Call center automation
+- Lead calling
+- CRM workflows
+- Sales outreach
+- Dispatch operations
 
-\- Lead calling
-
-\- CRM workflows
-
-\- Sales outreach
-
-\- Dispatch operations
-
-\## Security Note
+## Security Note
 
 Do not upload private contact lists publicly.
 
-\## Author
+## Author
 
 Muhammad Afzal Kalwar
 
